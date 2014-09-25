@@ -5,11 +5,15 @@ Simple TODO tracker.
 
 Inspired by http://lifehacker.com/5155450/todotxt-cli-manages-your-tasks-from-the-command-line
 
-Usage
-======
+Setup
+=====
+
+Download todoo.py
 
 add alias t="path/to/todoo.py" to ~/.profile
 
+Usage
+======
 Add todo:
 
     # t add "Remember to upgrade servers"
@@ -33,11 +37,13 @@ List todos:
     #
 
 Filter todos:
+
     # t filter "@work"
     3) Remember to upgrade servers @work
     #
 
 Mark todo 3 done and remove it:
+
     # t do 3
     #
 
